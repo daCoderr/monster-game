@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="description" content="Monster Player Game" />
+    <meta name="author" content="daCoderr@gmail.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- links -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="Member-monster-icon-small.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- title -->
+    <title>Monster Game</title>
+  </head>
+  <body>
+    <section id="health-levels">
+      <h2 id="monsterTitle"><span class="redDot"></span> MONSTER HEALTH</h2>
+      <progress id="monster-health" max="100" value="100">100%</progress>
+
+      <h2 id="playerTitle">
+        <span class="redDot"></span> PLAYER HEALTH<span id="bonus-life">1</span>
+      </h2>
+      <progress id="player-health" max="100" value="100">100%</progress>
+    </section>
+    <!-- controls -->
+    <section id="controls">
+      <button id="attack-btn">ATTACK</button>
+      <button id="heal-btn">HEAL</button>
+    </section>
+    <!-- logo -->
+    <small>daCoder</small>
+    <script src="app.js"></script>
+  </body>
+</html>
